@@ -8,7 +8,7 @@
     "dev": "next -p 8080",
     "serverless": "serverless",
     "export": "next build && next export",
-    "deploy": "npm run export && now"
+    "deploy": "npm run export && now" 
   },
   "dependencies": {
     "@svgr/webpack": "^5.5.0",
