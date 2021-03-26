@@ -5,10 +5,7 @@
   "scripts": {
     "build": "next build",
     "start": "next start",
-    "dev": "next -p 8080",
-    "serverless": "serverless",
-    "export": "next build && next export",
-    "deploy": "npm run export && now" 
+    "dev": "next -p 8080"
   },
   "dependencies": {
     "@svgr/webpack": "^5.5.0",
