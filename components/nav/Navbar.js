@@ -19,8 +19,8 @@ const Navbar = ({ visit }) => {
             height={250}
             src={
               theme.theme == "dark"
-                ? "/animexlogodark.svg"
-                : "/animexlogolight.svg"
+                ? "/matte_dark.png"
+                : "/matte_light.png"
             }
           />
         </div>

@@ -28,7 +28,7 @@ const Sidebar = ({ visit }) => {
             <div
               className={`${theme.text.selected} lg:hidden absolute cursor-pointer`}
             >
-              <Image
+              {/* <Image
                 width={140}
                 height={40}
                 src={
@@ -36,7 +36,7 @@ const Sidebar = ({ visit }) => {
                     ? "/animexlogodarksidebar.svg"
                     : "/animexlogolightsidebar.svg"
                 }
-              />
+              /> */}
             </div>
           </Link>
           <CgMenuHotdog

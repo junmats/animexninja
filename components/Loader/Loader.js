@@ -11,7 +11,7 @@ const Load = styled.div`
   position: absolute;
   top: calc(50% - 20px);
   left: calc(50% - 20px);
-  animation: ${loader} 3s linear infinite;
+  animation: 3s linear infinite;
 `;
 const animate = keyframes`
 17% {
