@@ -25,7 +25,7 @@ const Navbar = ({ visit }) => {
           />
         </div>
       </Link>
-      <Toggle /> 
+      <Toggle />
       <NavContainer links={Discover} heading={"Discover"} />
       <NavContainer links={Genre} heading={"Genres"} />
       <span
