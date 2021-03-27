@@ -3,9 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "next build && next export",
-    "start": "next start"
+    "build": "next build",
+    "start": "next start",
+    "dev": "next -p 8080"
   },
   "dependencies": {
     "@svgr/webpack": "^5.5.0",
