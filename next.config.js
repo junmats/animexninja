@@ -22,5 +22,4 @@ module.exports = {
     key: process.env.COUNT_API_KEY,
     URL: process.env.BASE_URL,
   },
-  distDir: 'out'
 };
