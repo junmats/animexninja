@@ -58,7 +58,6 @@ const WatchingContainer = ({ data = [], slug }) => {
     if (data.links?.length > 0) {
       setMyList([...data.links]);
       setLink(data.links[0].src);
-
       if (
         Myref.current &&
         resumeId &&
@@ -79,6 +78,14 @@ const WatchingContainer = ({ data = [], slug }) => {
     return () => clearInterval(myInterval);
   }, [data.links]);
 
+  const removeDash = (slug) =>{
+    if (typeof slug[0].replaceAll !== "undefined") { 
+      return slug[0].replaceAll("-", " ")
+    }
+
+    return slug[0].split("-").join(" ")
+  }
+
   const handleClick = (rate) => {
     Myref.current.playbackRate = rate;
   };
@@ -95,7 +102,7 @@ const WatchingContainer = ({ data = [], slug }) => {
             <span
               className={`font-light text-2xl lg:text-4xl ml-0 lg:ml-10 cursor-pointer text-blue-500`}
             >
-              {slug[0].replaceAll("-", " ")}
+              { removeDash(slug) }
             </span>
           </Link>
           <div

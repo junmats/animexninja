@@ -49,7 +49,10 @@ const App = ({ Component, pageProps }) => {
         />
         <meta
           name="keywords"
-          content="Watching,Popular,Streaming,Free,Fast,1080p,"
+          content="watching,popular,streaming,free,fast,1080p,online,animatte,anime,matte,action,adventure,cars,comedy,
+            dementia,demons,drama,dub,ecchi,fantasy,game,harem,historical,horror,josei,kids,magic,martial,arts,mecha,
+            military,music,mystery,parody,police,psychological,romance,samurai,school,sci-fi,seinen,shoujo,ai,shounen,
+            slice,of,life,space,sports,super,power,supernatural,thriller,vampire,yaoi,yuri"
         />
       </Head>
       <Sidebar visit={visit} />
