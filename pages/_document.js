@@ -10,7 +10,7 @@ class MyDocument extends Document {
           <Main />
           <NextScript />
           <script type="text/javascript" data-adel="atag" src="//asccdn.com/script/atg.js" czid="ialiy8b6"></script>
-          <script data-cfasync="false" type="text/javascript" src="https://www.dexpredict.com/a/display.php?r=4354851"></script>
+          <script src="//ashcdn.com/script/suv4.js" data-adel="lwsu" zid="4455303"></script>
         </body>
       </Html>
     )
